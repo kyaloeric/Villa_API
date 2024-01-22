@@ -16,6 +16,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("policy1");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
